@@ -1,3 +1,6 @@
 {
-  "cSpell.words": ["devkit"]
+  "cSpell.words": [
+    "devkit"
+  ],
+  "editor.formatOnSave": true
 }
