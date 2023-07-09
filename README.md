@@ -1,27 +1,33 @@
-# CognitoPracticeAngular
+# Cognito With Third Party - Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
+[Cognito With Third Party](https://github.com/raikiri-jp/cognito-with-third-party) は Amazon Cognito をサードパーティのサーバーから利用する Webアプリケーションのサンプルプロジェクトです。
 
-## Development server
+サンプルプロジェクトでは Backend に Laravel、Frontend に Angular を採用してしています。
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Backend の起動方法は [Cognito With Third Party](https://github.com/raikiri-jp/cognito-with-third-party) を参照してください。
 
-## Code scaffolding
+## ビルド手順
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. [Cognito With Third Party](https://github.com/raikiri-jp/cognito-with-third-party) をインストールします。
 
-## Build
+2. [Cognito With Third Party](https://github.com/raikiri-jp/cognito-with-third-party) の `src/frontend` (当アプリケーションのルートディレクトリ) に移動して、次のコマンドを実行します。
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+   ```
+   ng build
+   ```
 
-## Running unit tests
+   コマンドを実行すると Backend の `public` ディレクトリにファイルが出力されます。
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+   Frontend の変更を検知して自動でビルドを行うには、次のコマンドを実行します。
 
-## Running end-to-end tests
+   ```
+   ng build --watch
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## アプリケーションの起動方法
 
-## Further help
+アプリケーションの起動方法については [Cognito With Third Party](https://github.com/raikiri-jp/cognito-with-third-party) を参照してください。
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+
+[MIT license](https://opensource.org/licenses/MIT)
